@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/principal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/num_telefono"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="true"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/telefono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="100sp"
+            android:paddingRight="100sp"
+            android:textColor="#00AA00"
+            android:text="1"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/prefijo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:textColor="#00AA00"
+            android:text="2"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/numero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="9"
+            android:textColor="#00AA00"
+            android:text="3"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+            <Button
+                android:id="@+id/telefono52"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="80sp"
+                android:paddingRight="105sp"
+                android:textColor="#00AA00"
+                android:text="4" />
+
+            <Button
+                android:id="@+id/telefono552"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="80sp"
+                android:paddingRight="105sp"
+                android:textColor="#00AA00"
+                android:text="5"/>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
